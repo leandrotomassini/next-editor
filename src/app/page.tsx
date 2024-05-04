@@ -1,13 +1,12 @@
 'use client';
 import { useState } from 'react';
 import Markdown from 'markdown-to-jsx';
-import { Editor as NovelEditor } from "novel-lightweight";
+import { Editor as NovelEditor } from 'novel-lightweight';
 
 export default function Home() {
 
   const [ data, setData ] = useState( "" );
   const [ saveStatus, setSaveStatus ] = useState( "Saved" );
-
 
   return (
     <>
